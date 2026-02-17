@@ -18,5 +18,4 @@ public class Exercise5{
 
         }while (num != 0);
     }
-
 }
