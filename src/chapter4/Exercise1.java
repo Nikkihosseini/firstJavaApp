@@ -6,9 +6,9 @@ public class Exercise1 {
 
         int baseSalary = 50_000;
         int extraSalary = 2_000;
-        int hourlyRate = 10;
+        int  extraHours = 10;
 
-        int wage = calculateWage(baseSalary ,extraSalary, hourlyRate);
+        int wage = calculateWage(baseSalary ,extraSalary, extraHours);
 
         System.out.println(wage);
 
@@ -17,9 +17,9 @@ public class Exercise1 {
     public static int calculateWage(
         int baseSalary,
         int extraSalary,
-        int hourlyRate){
+        int extraHours){
 
-        return baseSalary + (extraSalary * hourlyRate);
+        return baseSalary + (extraSalary * extraHours);
 
     }
 }
